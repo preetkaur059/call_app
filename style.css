@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:  rgba(105, 90, 205, 0.823);
+    color: white;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -30px;
+    gap: 1rem;
+}
+.main{
+    /* display: none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.maincard1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 25rem;
+    height: 15rem;
+}
+
+button{
+    font-size: 1.5rem;
+    border-radius: 20%;
+    background-color: rebeccapurple;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: white;
+}
+.card{
+    background-color: rgb(95, 74, 236);
+    height: 15rem;
+    width: 25rem;
+    border-radius: 10%;
+    position: absolute;
+    inset: 0;
+}
+.cd {
+    z-index: 3;
+}
+.card2 {
+  transform: translateY(35px) translateX(35px) scale(0.94);
+  opacity: 0.4;
+  z-index: 1;
+}
+.card3{
+  transform: translateY(20px) translateX(18px) scale(0.97);
+  opacity: 0.7;
+  z-index: 2;
+}
+
+.info {
+    display: flex;
+    margin: 1rem;
+}
+.info2{
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    margin: 0 1.3rem;
+    padding: 0.2rem;
+}
+
+.name{
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.info img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info3 {
+    display: flex;
+}
+.info3 button {
+    flex: 1;
+    font-size: 1rem;
+    border-radius: 20%;
+    background-color: rebeccapurple;
+    margin: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.colors{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    cursor: pointer;
+    position: absolute;
+    right: 28rem;
+    z-index: 10;
+}
+#skyblue {
+    background-color: rgba(0, 255, 255, 0.543);
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+#yellow {
+    background-color: rgba(105, 90, 205, 0.823);
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+#pink {
+    background-color: rgba(255, 0, 212, 0.795);
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+#purple {
+    background-color: rgb(123, 0, 255);
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+
+/* form  */
+form {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+    min-height: 100vh;   /* screen to chhota na hove */
+    overflow-y: auto;
+    height: auto;     
+    width: 30vw;
+    margin: auto;
+    background-color: rgba(102, 0, 255, 0.788);
+}
+
+form h2{
+    font-size: 2.4rem;
+}
+label{
+    font-size: 1.4rem;
+    margin: 0.5rem;
+}
+form .p1{
+    padding-top: 0.8rem;
+}
+input[type="text"] {
+    background-color: rgba(105, 90, 205, 0.823);
+    width: 95%;
+    font-size: 0.8rem;
+    z-index: 5;
+    padding: 0.5rem;
+}
+
+input::placeholder {
+    color: white;
+}
+.radio-group{
+    display: flex;
+    flex-direction: column;
+}
+label:has(input[type="radio"]) {
+    font-size: 1.1rem;
+}
+.btn{
+    width: 100%;
+}
+form button{
+    color: white;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    background-color:  rgba(105, 90, 205, 0.823);
+}
+.close-form{
+    background-color: rgba(255, 0, 0, 0.871);
+}

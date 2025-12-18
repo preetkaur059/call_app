@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>call app</title>
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ 
+</head>
+<body>
+    <div class="main">
+         <!-- icons  -->
+        <div class="icons">
+            <button type="button" id="addbtn"><i class="fa-solid fa-plus"></i></button>
+            <button type="button" id="upbtn"><i class="fa-solid fa-arrow-up"></i></button>
+            <button type="button" id="downbtn"><i class="fa-solid fa-arrow-down"></i></button>
+        </div>
+
+        <!-- cards  -->
+        <div class="maincard1">
+        
+         <!-- <div class="card cd">
+            <div class="info">
+            <img src="images/girl.jpeg" alt="call image">
+               <h2 class="name"> Siratpreet</h2>
+               </div>
+               
+               <div class="info2">
+                <p>Home Town</p>
+                <p>singapore</p>
+               </div>
+               <div class="info2">
+                <p>bookings</p>
+                <p>3 times</p>
+               </div>
+
+               <div class="info3">
+               <button>Call</button>
+               <button>message</button>
+               </div>
+        </div>
+
+        <div class=" card card2">
+             <div class="info">
+            <img src="images/girl.jpeg" alt="call image">
+               <h2 class="name"> Siratpreet</h2>
+               </div>
+               
+               <div class="info2">
+                <p>Home Town</p>
+                <p>singapore</p>
+               </div>
+               <div class="info2">
+                <p>bookings</p>
+                <p>3 times</p>
+               </div>
+
+               <div class="info3">
+               <button>Call</button>
+               <button>message</button>
+               </div>
+        </div>
+        <div class="card card3">
+             <div class="info">
+            <img src="images/girl.jpeg" alt="call image">
+               <h2 class="name"> Siratpreet</h2>
+               </div>
+               
+               <div class="info2">
+                <p>Home Town</p>
+                <p>singapore</p>
+               </div>
+               <div class="info2">
+                <p>bookings</p>
+                <p>3 times</p>
+               </div>
+
+               <div class="info3">
+               <button>Call</button>
+               <button>message</button>
+               </div>
+        </div> -->
+
+        </div>
+        <div class="colors">
+            <span class="clrs" id="skyblue"></span >
+            <span class="clrs" id="yellow"></span >
+            <span class="clrs" id="pink"></span >
+            <span class="clrs" id="purple"></span >
+        </div>
+    </div>
+
+
+    <!-- form  -->
+     <form class="form-container">
+        <h2> New Call </h2>
+        <label class="p1" for= "img1"> Image Url</label>
+        <input type ="text" class = "images" id="img1" placeholder="https://example.com/photo.jpg">
+        <label class="p1" for= "fname"> Full Name</label>
+        <input type ="text" class = "fullnam1" id="fname" placeholder="Enter full name">
+        <label class="p1" for= "htown"> Home Town</label>
+        <input type ="text" class = "hometow1" id="htown" placeholder="Enter home town">
+        <label class="p1" for= "purp"> Purpose</label>
+        <input type ="text" class = "purpose" id="purp" placeholder="e.g., Quick appointment note">
+        <label class="p1">Category</label>
+        <label class="radio-group">
+        <label><input required type="radio" name="Category" value="emergency"> Emergency</label>
+        <label><input required type="radio" name="Category" value="important"> Important</label>
+        <label><input required type="radio" name="Category" value="urgent"> Urgent</label>
+        <label><input required type="radio" name="Category" value="no-rush"> No Rush</label>
+    </label>
+    <button type="submit" class="create">Create Note</button>
+    <button type="button" class="close-form">Close</button>
+
+     </form>
+
+     <script src="script.js"></script>
+</body>
+</html>
